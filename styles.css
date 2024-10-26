@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid a, 
+ #dolor, 
+.navbar-toggler-icon,
+.navbar-toggler{
+
+    color: white;
+}
+
+ul li{
+    color: black;
+    list-style: none;
+    
+}
+.col p{
+    text-align: justify;
+   /* background-color:aliceblue;*/
+   background-color:whitesmoke;
+   
+}
+.list-group{
+ text-decoration: underline;
+}

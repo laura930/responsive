@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Turtles</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" rel=""></script>
+    <!--Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-md bg-secondary"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SEA TURTLES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> <!--btn burger-->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="dolor">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Get involved</a>
+          </li>
+            <!-- Dropdown de Opciones -->
+            <li class="nav-item dropdown d-lg-none"> <!--vista solo en sm y md-->
+              <a class="nav-link dropdown" href="#" role="button" id="Opciones-menu-item" data-bs-toggle="dropdown">
+                  Opciones
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="Opciones-menu-item">
+                <div class="list-group">
+                  <li><a href="#" class="list-group-item list-group-item-action">Opcion 1</a></li>
+                  <li><a href="#" class="list-group-item list-group-item-action">Opcion 2</a></li>
+                  <li><a href="#" class="list-group-item list-group-item-action">Opcion 3</a></li>
+                </div>
+              </ul>
+            </li>
+            </ul>
+         <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"id="search">
+      </form>
+    </div>
+  </nav>
+ <!-- Carousel  de 3 lineas de texto  que cambia cada 2s-->
+  <div class="container text-center"><br>
+   <h2>Sea Turtles of South America...</h2>
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000"> <!--intervalo de 2s-->
+        <h4>...Sea turtles are crucial for the ecosystem of the world’s oceans.</h4>
+      </div>
+      <div class="carousel-item"data-bs-interval="2000">
+        <h4>...Sea turtles can live up to 50 years.</h4>
+      </div>
+      <div class="carousel-item"data-bs-interval="2000">
+        <h4>...Sand temperature determines the sex of sea turtles.</h4>
+      </div>
+    </div>
+  </div>
+    <br>
+   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4"> <!--  agregar gx-gap en eje x ?-->
+    <div class="col-4 list-group">
+        <div ><!--Column 1: Opciones-->
+            <a href="https://www.seaturtlestatus.org/" class="list-group-item ">SWOT</a>
+            <a href="https://www.karumbe.org/#/" class="list-group-item ">Karumbé</a>
+            <a href="https://www.tamar.org.br/" class="list-group-item ">TAMAR</a>
+    </div>
+      </div>
+    <!-- 8 Parrafos-->
+    <div class="col"><!--Column 2-->
+        <p>
+          Five of the world’s seven sea turtle species (hawksbill, green, leatherback, loggerhead, and olive ridley) call the Pacific, Atlantic, and Caribbean waters and the beaches of South America their home for at least part of their life cycles. And although uncommon, even the range-restricted Kemp’s ridley is an occasional visitor to South American waters, leaving just one sea turtle that is a complete stranger to the continent: the Australian flatback. Hybrid sea turtles are also known to occur among the hard-shelled species in South America (see box, p. 19).
+        </p>
+        <p>
+          Sea turtles are among the most migratory creatures on Earth. Thus, it is no surprise that many turtles found in South America arrive there from far away. Some have hatched on distant shores in Africa, the Caribbean, Central America, and the western Pacific. By the same token, turtles hatched on South American beaches are also known to travel throughout the Atlantic and Pacific Oceans and the Caribbean Sea. A total of 12 distinct sea turtle subpopulations (also called regional management units, or RMUs) are found in South America, out of 38 that are described globally (see maps, pp. 20–25).
+        </p>
+        <p>
+          All five of South America’s resident sea turtles nest on the continent in a vast tropical arc that stretches clockwise from Piura in northern Peru to the Brazilian state of Rio de Janeiro; this encompasses the Galápagos and other offshore islands (see maps, pp. 20–23). Sea turtles range significantly farther south of this nesting arc as they forage in the Pacific off Peru and Chile and in the Atlantic off southernmost Brazil, Uruguay, and Argentina.
+        </p>
+    </div>
+    <div class="col"><!--Column 3-->
+        <p>
+          The maps that accompany this article show data that are provided by SWOT partners and that document sea turtle nesting abundance along this continuum (pp. 20–23). The maps also show in-water movements from satellite tags deployed in South America (pp. 24–25), as well as selected stranding data for the three South American coastal countries where nesting does not occur (see box, p. 27).
+        </p>
+        <p>
+          Sea turtles are important components of the culture and folklore of South American people. Turtles have been sought for food and for other traditional uses throughout the continent’s human history. Over the centuries, what began as subsistence-level human exploitation has evolved into a variety of more severe and pervasive anthropogenic threats. Today, those threats include the effects of fisheries, loss of habitat to coastal development and to resource extraction, poaching, boat strikes, pollution, and climate change.
+        </p>
+        <p>
+          As a result of those mounting threats and of the increasing environmental consciousness globally, all 11 coastal South American countries have responded with some form of national protective legislation for sea turtles. All are also participating in related intergovernmental treaties, including the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), the Convention on Migratory Species (CMS), and the Convention on Biological Diversity (CBD). Moreover, all but Colombia, France (French Guiana), Guyana, and Suriname are party to the Inter-American Convention (IAC) for the Protection and Conservation of Sea Turtles, which was established in 2001.
+        </p>
+    </div>
+    <div class="col"><!--Column 4-->
+        <p>
+          Regional networks also play an important role in organizing the South American sea turtle movement, including the Wider Caribbean Sea Turtle Conservation Network (WIDECAST), the Southwest Atlantic Sea Turtle Network (ASO), the Groupe Tortues Marines France (GTMF), the South Atlantic Sea Turtle Network (SASTN), and the Eastern Pacific Hawksbill Initiative (ICAPO), to name a few.
+        </p>
+        <p>
+          This fragment of text is not my own production. The original article appeared in SWOT Report, vol. 11 (2016). <a href="https://www.seaturtlestatus.org/articles/2016/sea-turtles-of-south-america" >Click here to see the whole one and their authors.</a>
+        </p>
+    </div>
+  </div>
+  </div>
+
+ </section>
+    <!--Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+
+</body>
+</html>
